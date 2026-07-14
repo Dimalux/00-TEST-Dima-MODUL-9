@@ -10,3 +10,4 @@ console.log(nanoid());
 
 // import { nanoid } from 'nanoid'    -   імпорт м/б на самій горі файлу main.js
 // console.log(nanoid());   //   в консолі при кожному перезавантаженні сторінки пакет "nanoid" буде генерувати випадкові ID-ки
+ 
