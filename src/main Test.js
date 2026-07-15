@@ -1605,12 +1605,62 @@ localStorage.setItem(LS_KEY, JSON.stringify(products));    //  перетвор�
 // .............................
 
 
-// ПОЯСНЕННЯ-22    Іменовані експорт та імпорт (named export).   (01:47:10)
+// ПОЯСНЕННЯ-22    ІМЕНОВАНІ експорт та імпорт (named export).   (01:47:10)
+
+// ДОПОВНИМО наш код у файлі  helpers.js :
+
+// export default sum;
+
+// function sum(a,b) {
+//   return a + b;
+// }
+
+// function sayHello() {
+//     console.log("hello")
+// }
+
+// const userName = "Alice";
+
+
+// Ось так виглядає синтаксис для ІМЕНОВАНОГО ЕКСПОРТУ :
+
+// export function sayHello() {
+//     console.log("hello")
+// }
+
+// export const userName = "Alice";
+
+// або :
+
+// export { sayHello, userName }
+
+//..........
+
+// РЕЗУЛЬТАТ для  файла helpers.js :
+
+// export default sum;
+// export { sayHello, userName }
+
+// function sum(a,b) {
+//   return a + b;
+// }
+
+// function sayHello() {
+//     console.log("hello")
+// }
+
+// const userName = "Alice";
+
+//..........
+
+// Ось так виглядає синтаксис для ІМЕНОВАНОГО ІМПОРТУ  в файлах page-2.js і main.js :
+
+
+// import { sayHello, userName } from "./helpers"          //    для файла page-2.js
+
+// import { sayHello, userName } from "./helpers/helpers"  //    для файла main.js
 
 
 
 
-
-
-
-// (01:47:10)
+// (01:54:20)
