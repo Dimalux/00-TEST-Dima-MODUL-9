@@ -1,1 +1,1 @@
-{"version":3,"file":"helpers-rHJqfAWJ.js","sources":["../../src/helpers/helpers.js"],"sourcesContent":["\nexport default sum;\n\nfunction sum(a,b) {\n  return a + b;\n}"],"names":["sum","a","b"],"mappings":"ssBAGA,SAASA,EAAIC,EAAEC,EAAG,CAChB,OAAOD,EAAIC,CACb"}
+{"version":3,"file":"helpers-rHJqfAWJ.js","sources":["../../src/helpers/helpers.js"],"sourcesContent":["\nexport default sum;  //  дефолтний експорт м/б тільки один !!!\n\nfunction sum(a,b) {\n  return a + b;\n}"],"names":["sum","a","b"],"mappings":"ssBAGA,SAASA,EAAIC,EAAEC,EAAG,CAChB,OAAOD,EAAIC,CACb"}
