@@ -21,4 +21,4 @@
 
 import sum from "./helpers/helpers"
 
-console.log(sum(15, 25));
+console.log(sum(15, 25));    //     40
