@@ -1,2 +1,2 @@
-import{s as o,a as s,u as a}from"./assets/helpers-DA5FPvni.js";/* empty css                      */console.log(o(7,5));s();console.log(a);
+import{s as o,u as s}from"./assets/helpers-DtsAHaln.js";/* empty css                      */console.log(o(7,5));console.log(s);
 //# sourceMappingURL=page-2.js.map
