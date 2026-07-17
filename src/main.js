@@ -33,13 +33,27 @@
 
 // import sum from "./helpers/helpers";
 // import { userName, sayHello } from "./helpers/helpers";
-import sum, { userName as helperName, sayHello } from "./helpers/helpers";    //   ІМЕНОВАНУ зміну "userName" перейменовуємо на "helperName"
+// import sum, { userName as helperName, sayHello } from "./helpers/helpers";    //   ІМЕНОВАНУ зміну "userName" перейменовуємо на "helperName"
 
-console.log(sum(2, 5));
+// console.log(sum(2, 5));
 
-const userName = "Petya";
+// const userName = "Petya";
 
-console.log(sayHello());
-console.log(userName);
-console.log(helperName);
+// console.log(sayHello());
+// console.log(userName);
+// console.log(helperName);
 
+// .............................
+// .............................
+
+
+// ПОЯСНЕННЯ-24    Імпорт ПРОСТОРУ ІМЕН (namespace import)  (01:59:10)
+
+// Замість :
+// import { userName, sayHello } from "./helpers/helpers";
+
+// Пишемо :
+import * as helper from "./helpers/helpers";
+
+console.log(helper.userName);    // "Alice"
+console.log(helper.sayHello());  // "hello"
