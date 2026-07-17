@@ -1,2 +1,2 @@
-import{s as o,a as s,u as e}from"./assets/helpers-DtsAHaln.js";/* empty css                      */console.log(o(2,5));const l="Petya";console.log(s());console.log(l);console.log(e);
+import{u as o,a as l}from"./assets/helpers-DtsAHaln.js";/* empty css                      */console.log(o);console.log(l());
 //# sourceMappingURL=index.js.map
