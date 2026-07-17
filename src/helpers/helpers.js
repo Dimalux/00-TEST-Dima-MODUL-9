@@ -23,7 +23,7 @@ function sum(a,b) {
 }
 
 function sayHello() {
-    console.log("hello")
+    return "hello";
 }
 
 const userName = "Alice";

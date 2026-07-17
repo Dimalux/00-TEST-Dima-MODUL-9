@@ -19,6 +19,27 @@
 
 // ПОЯСНЕННЯ-21 :
 
-import sum from "./helpers/helpers"
+// import sum from "./helpers/helpers"
 
-console.log(sum(15, 25));    //     40
+// console.log(sum(15, 25));    //     40
+
+
+
+// .............................
+// .............................
+
+// ПОЯСНЕННЯ-23    ПЕРЕЙМЕНУВАННЯ Rename export (01:54:20)
+
+
+// import sum from "./helpers/helpers";
+// import { userName, sayHello } from "./helpers/helpers";
+import sum, { userName as helperName, sayHello } from "./helpers/helpers";    //   ІМЕНОВАНУ зміну "userName" перейменовуємо на "helperName"
+
+console.log(sum(2, 5));
+
+const userName = "Petya";
+
+console.log(sayHello());
+console.log(userName);
+console.log(helperName);
+
