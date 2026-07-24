@@ -1736,6 +1736,7 @@ localStorage.setItem(LS_KEY, JSON.stringify(products));    //  перетвор�
 // // ...........
 
 // Варіант 2: Окремий імпорт дефолтного експорту
+
 // javascript
 // import sum, * as helpers from './helpers.js';
 
